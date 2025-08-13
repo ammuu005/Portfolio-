@@ -367,8 +367,8 @@ class ProjectModalManager {
                     "Dark/light theme support"
                 ],
                 challenges: "Handling multiple API calls efficiently and creating smooth animations for weather transitions. I implemented a caching strategy and used CSS transforms for performance-optimized animations.",
-                liveUrl: "#",
-                githubUrl: "#"
+                liveUrl: "https://weather-dashboard.alexrodriguez.dev",
+                githubUrl: "https://github.com/alexrodriguez/weather-dashboard"
             },
             4: {
                 title: "Creative Portfolio",
