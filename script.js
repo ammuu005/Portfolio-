@@ -374,19 +374,23 @@ class ProjectModalManager {
                 title: "Creative Portfolio",
                 image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800",
                 fullDescription: "An interactive portfolio website for a digital agency featuring smooth animations, modern design, and optimized performance. Built with vanilla JavaScript and advanced CSS techniques.",
-                technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "Intersection Observer", "Sass"],
+                technologies: ["HTML5", "CSS3", "JavaScript", "GSAP", "Intersection Observer", "Sass", "Webpack", "Lighthouse"],
                 features: [
                     "Smooth scroll animations",
                     "Interactive project showcases",
                     "Dynamic content loading",
+                    "Advanced image optimization and WebP support",
                     "Performance-optimized images",
+                    "Accessibility compliance (WCAG 2.1 AA)",
                     "SEO-friendly structure",
+                    "Google Analytics and conversion tracking",
                     "Cross-browser compatibility",
+                    "Progressive enhancement approach",
                     "Mobile-first responsive design"
                 ],
-                challenges: "Creating smooth animations while maintaining 60fps performance across all devices. I used GSAP for complex animations and implemented intersection observers for efficient animation triggering.",
-                liveUrl: "#",
-                githubUrl: "#"
+                challenges: "Creating smooth 60fps animations across all devices while maintaining accessibility was challenging. I used GSAP with hardware acceleration, implemented intersection observers for performance, and added reduced motion support. The site achieved a 98 Lighthouse performance score.",
+                liveUrl: "https://creative-agency.alexrodriguez.dev",
+                githubUrl: "https://github.com/alexrodriguez/creative-portfolio"
             }
         };
     }
